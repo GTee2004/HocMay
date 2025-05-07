@@ -38,3 +38,45 @@
 Additional note: there are several (382) students that belong to both datasets . 
 These students can be identified by searching for identical attributes
 that characterize each student, as shown in the annexed R file.
+
+
+
+
+Các thuộc tính dùng cho cả hai tập dữ liệu student-mat.csv (môn Toán) và student-por.csv (môn Tiếng Bồ Đào Nha):
+
+school – Trường học của học sinh (nhị phân: "GP" - Gabriel Pereira hoặc "MS" - Mousinho da Silveira)
+sex – Giới tính của học sinh (nhị phân: "F" - nữ hoặc "M" - nam)
+age – Tuổi của học sinh (dạng số: từ 15 đến 22)
+address – Loại địa chỉ nhà ở (nhị phân: "U" - thành thị hoặc "R" - nông thôn)
+famsize – Quy mô gia đình (nhị phân: "LE3" - nhỏ hơn hoặc bằng 3 người, "GT3" - lớn hơn 3 người)
+Pstatus – Tình trạng sống chung của cha mẹ (nhị phân: "T" - sống cùng nhau hoặc "A" - sống riêng)
+Medu – Trình độ học vấn của mẹ (dạng số: 0 - không học, 1 - tiểu học (lớp 4), 2 - lớp 5 đến 9, 3 - trung học, 4 - đại học)
+Fedu – Trình độ học vấn của cha (cùng định dạng như Medu)
+Mjob – Nghề nghiệp của mẹ (danh mục: "teacher" - giáo viên, "health" - ngành y tế, "services" - công chức (ví dụ hành chính hoặc cảnh sát), "at_home" - nội trợ, "other" - khác)
+Fjob – Nghề nghiệp của cha (cùng định dạng như Mjob)
+reason – Lý do chọn trường học này (danh mục: gần "home" - nhà, "reputation" - danh tiếng, "course" - sở thích môn học, hoặc "other" - khác)
+guardian – Người giám hộ của học sinh (danh mục: "mother" - mẹ, "father" - cha, hoặc "other" - người khác)
+traveltime – Thời gian đi học từ nhà (dạng số: 1 - <15 phút, 2 - 15–30 phút, 3 - 30 phút–1 giờ, 4 - >1 giờ)
+studytime – Thời gian học mỗi tuần (dạng số: 1 - <2 giờ, 2 - 2–5 giờ, 3 - 5–10 giờ, 4 - >10 giờ)
+failures – Số lần trượt lớp trước đó (dạng số: n nếu 1 ≤ n < 3, nếu không thì 4)
+schoolsup – Hỗ trợ học tập thêm tại trường (nhị phân: "yes" hoặc "no")
+famsup – Hỗ trợ học tập từ gia đình (nhị phân: "yes" hoặc "no")
+paid – Học thêm trả phí trong môn học (Toán hoặc Bồ Đào Nha) (nhị phân: "yes" hoặc "no")
+activities – Tham gia hoạt động ngoại khóa (nhị phân: "yes" hoặc "no")
+nursery – Có học mẫu giáo hay không (nhị phân: "yes" hoặc "no")
+higher – Có mong muốn học đại học không (nhị phân: "yes" hoặc "no")
+internet – Có truy cập Internet tại nhà không (nhị phân: "yes" hoặc "no")
+romantic – Đang trong một mối quan hệ tình cảm (nhị phân: "yes" hoặc "no")
+famrel – Mức độ quan hệ gia đình (dạng số: từ 1 - rất tệ đến 5 - rất tốt)
+freetime – Thời gian rảnh sau giờ học (dạng số: từ 1 - rất ít đến 5 - rất nhiều)
+goout – Mức độ đi chơi với bạn bè (dạng số: từ 1 - rất ít đến 5 - rất thường xuyên)
+Dalc – Mức độ tiêu thụ rượu trong ngày đi học (dạng số: từ 1 - rất ít đến 5 - rất nhiều)
+Walc – Mức độ tiêu thụ rượu vào cuối tuần (dạng số: từ 1 - rất ít đến 5 - rất nhiều)
+health – Tình trạng sức khỏe hiện tại (dạng số: từ 1 - rất kém đến 5 - rất tốt)
+absences – Số ngày nghỉ học (dạng số: từ 0 đến 93)
+
+📝 Các điểm số liên quan đến môn học (Toán hoặc Tiếng Bồ Đào Nha):
+G1 – Điểm kỳ đầu tiên (dạng số: từ 0 đến 20)
+G2 – Điểm kỳ giữa (dạng số: từ 0 đến 20)
+G3 – Điểm cuối kỳ (dạng số: từ 0 đến 20, là biến mục tiêu đầu ra)
+

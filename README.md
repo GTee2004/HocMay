@@ -1,4 +1,4 @@
 # Cây quyết định
-![](./decision_tree.png)
+![](./DecisionTree.png)
 # Confusion Matrix
 ![](./confusion_matrix.png)
